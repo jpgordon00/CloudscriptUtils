@@ -1,8 +1,8 @@
 # CloudscriptUtils
 Some general use PlayFab Cloudscripts
 
-#ExecuteFunctionPassthrough
+## ExecuteFunctionPassthrough
 Call 'ExecuteFunction' from Cloudscript
 
-#GetEntityKey
+## GetEntityKey
 Since 'entity.GetEntityKey' is broken use the function 'GetEntityKey("mysecretkey")'
