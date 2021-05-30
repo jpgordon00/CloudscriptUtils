@@ -1,5 +1,5 @@
 handlers.ExecuteFunctionPassthrough = function (args, context) {
-    var entityToken = GetEntityToken("somesecretkeyhere)
+    var entityToken = GetEntityToken("somesecretkeyhere")
     var headers = {
         "X-EntityToken": entityToken
     }
