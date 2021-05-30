@@ -9,7 +9,7 @@ handlers.ExecuteFunctionPassthrough = function (args, context) {
         Entity : context.currentEntity,
         FunctionName : args.FunctionName
     }
-    var title = "valid_title
+    var title = "valid_title"
     var url = "https://" + title + ".playfabapi.com/CloudScript/ExecuteFunction"
     var content = JSON.stringify(body);
     var httpMethod = "post";
