@@ -28,7 +28,8 @@ function GetEntityToken(secretKey) {
     
     var body = {
     }
-    var url = "https://E2054.playfabapi.com/Authentication/GetEntityToken"
+    var title = "valid_title_id"
+    var url = "https://" + title + ".playfabapi.com/Authentication/GetEntityToken"
     var content = JSON.stringify(body);
     var httpMethod = "post";
     var contentType = "application/json";
